@@ -15,11 +15,11 @@ class Solution {
 
                     }
 
-                     int m = 0;
-                    while(m < matrix[0].length)
+                    k = 0;
+                    while(k < matrix[0].length)
                     {
-                        if(matrix[i][m] != 0) matrix[i][m] = -99875534;
-                        m++;
+                        if(matrix[i][k] != 0) matrix[i][k] = -99875534;
+                        k++;
                     }
                 }
             }
